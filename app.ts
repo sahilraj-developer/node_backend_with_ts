@@ -1,8 +1,4 @@
-let message: string = "hello world"
-console.log(message);
-
-function compute(a:number ,b:number){
-    return a = b;
-}
-
-console.log(compute(2,2))
+import http from 'http';
+http.createServer((req,res)=>{
+res.end('Hello world');
+}).listen(3000,()=> console.log("server started at port http://localhost:3000"))

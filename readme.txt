@@ -5,3 +5,5 @@ less tsconfig.json
 
 tsc    -> to compile your code 
 node app.js   -> to run the code 
+
+npm i @types/node   
